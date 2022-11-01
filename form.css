@@ -1,0 +1,90 @@
+body{
+    background-color: #ddd;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    max-width: 500px;
+    height: 250px;
+    margin: 20px auto;
+    background-color: #fff;
+    overflow: hidden;
+    transition: 180ms;
+}
+.sign-height{
+    height: 400px;
+    transition: 180ms;
+}
+.btn-wrapper{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+  
+}
+.btn-wrapper button{
+ width: 130px;
+ height: 30px;
+ cursor: pointer;
+ outline: none;
+
+}
+.btn-wrapper button:first-child{
+    margin-right: 25px; 
+}
+.btn-wrapper button:last-child{
+    margin-left: 20px; 
+}
+.btn-active{
+    background-color: blue;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: 200ms;
+}
+.login-wrapper{
+    width: 300px;
+    height: 100%;
+    margin: 10px auto;
+    padding-top: 15px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+ .submit-btn{
+    width: 250px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    outline: none;
+    margin-top:20px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.input-wrapper{
+   position: relative;
+}
+.hide-form{
+    position: absolute;
+    left: -1000px;
+    transform: 1s;
+}
+.btn-icon{
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    right: 0;
+    top: 40%;
+    padding: 0;
+}
